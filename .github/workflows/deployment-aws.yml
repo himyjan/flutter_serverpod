@@ -46,7 +46,7 @@ jobs:
         env:
           PROJECT_NAME: serverpod_app
           AWS_NAME: serverpod-app
-          DEPLOYMENT_BUCKET: serverpod-app-deployment-4858410
+          DEPLOYMENT_BUCKET: serverpod-app-deployment-735376
           TARGET: ${{ github.event.inputs.target }}
         run: |
           # Deploy server to AWS
