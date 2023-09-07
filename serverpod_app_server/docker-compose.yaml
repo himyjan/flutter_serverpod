@@ -12,7 +12,7 @@ services:
     volumes:
       - serverpod_app_data:/var/lib/postgresql/data
   redis:
-    image: redis:7.2.0
+    image: redis:7.2.1
     ports:
       - '8091:6379'
     command: redis-server --requirepass "UF5QdGjXTL_qT5pXMCrqUnARD8CXQHQi"
